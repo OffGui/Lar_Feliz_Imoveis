@@ -1,0 +1,33 @@
+@import "../app.component.scss";
+
+.container {
+    width: 1140px;
+    min-height: calc(100vh - 225px);
+    display: block;
+    margin: auto;
+    h2 {
+        font-family: $fonte-principal;
+        font-size: $grande;
+        line-height: $extra-grande;
+        padding-top: 40px;
+        padding-bottom: 30px;
+        color: $cor-principal;
+    }
+    .product-details {
+        display: flex;
+        gap: 30px;
+        img {
+            width: 100%;
+        }
+        .product-description {
+            width: 100%;
+            p {
+                font-family: $fonte-secundaria;
+                color: $cinza-medio;
+                font-size: $media;
+                line-height: $grande;
+                
+            }
+        }
+    }
+}
