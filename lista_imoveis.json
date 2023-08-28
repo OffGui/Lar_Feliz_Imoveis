@@ -74,5 +74,13 @@
     }
   ],
   "contato": {},
-  "usuarios": []
+  "usuarios": [
+    {
+      "name": "user",
+      "username": "userteste",
+      "password": "teste",
+      "confirmPassword": "teste",
+      "id": 1
+    }
+  ]
 }
