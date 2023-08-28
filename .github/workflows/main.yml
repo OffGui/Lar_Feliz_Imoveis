@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Fazendo build da aplicação 🔥
-        run: ng build 
+        run: npm run build 
 
       - name: Deploy no S3 🎉
         env:
